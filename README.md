@@ -1,2 +1,5 @@
 # Video-store-DB
-Sample video store DB
+This project details a sample video store DB
+Includes an ERD
+Metadata
+Table code written in PostgreSQL
