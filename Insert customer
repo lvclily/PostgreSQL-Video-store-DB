@@ -1,3 +1,0 @@
-INSERT INTO customer VALUES (
-	'ABC103456789', 'Dwyer', 'Dale', '789 1st St. Arlington TX', 0
-);
