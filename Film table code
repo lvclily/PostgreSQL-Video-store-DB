@@ -1,0 +1,16 @@
+CREATE TABLE film (
+	film_ID CHAR(12) NOT NULL,
+	dist_ID CHAR(12) NOT NULL,
+	copies INTEGER NOT NULL,
+	status VARCHAR NOT NULL,
+	film_cast VARCHAR,
+	director VARCHAR,
+	run_time CHAR(8) NOT NULL,
+	genre VARCHAR,
+	rating CHAR(4) NOT NULL,
+	film_year INTEGER NOT NULL,
+	awards_won VARCHAR,
+	std_rent_fee MONEY NOT NULL,
+	disc_rent_fee MONEY,
+	PRIMARY KEY (film_ID)
+);
