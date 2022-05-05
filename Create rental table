@@ -1,0 +1,9 @@
+CREATE TABLE rental_form(
+	rental_num CHAR(12) NOT NULL,
+	cust_acct_num CHAR(12) NOT NULL,
+	film_ID CHAR(12) NOT NULL,
+	date DATE NOT NULL,
+	rental_fees MONEY NOT NULL,
+	addtl_fees MONEY,
+	PRIMARY KEY (rental_num)
+);
