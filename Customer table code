@@ -1,0 +1,8 @@
+CREATE TABLE customer(
+	cust_acct_num CHAR(12) NOT NULL,
+	cust_last_name VARCHAR NOT NULL,
+	cust_first_name VARCHAR NOT NULL,
+	cust_address VARCHAR,
+	out_charges MONEY,
+	PRIMARY KEY (cust_acct_num)
+);
